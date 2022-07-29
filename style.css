@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url(./assets/bg.png);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+}
+/* Navbar Style */
+
+.section-navbar {
+  background-color: #000;
+  margin-bottom: 15rem;
+}
+
+.navbar {
+  color: #fff;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+.logo {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.line{
+  display: inline-block;
+  font-size: 2.9rem;
+}
+.line::after {
+  content: "|";
+  
+  
+}
+
+.grow-list {
+  margin-right: 22rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.4rem;
+  cursor: pointer;
+}
+
+.list-item {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.button-small {
+  display: block;
+  width: 14rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: transparent;
+  background-color: #ba0cc5;
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.button-small:hover {
+  background-color: #b52dbe;
+}
+
+/* ......................
+        Hero section
+....................... */
+
+.section-hero {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero {
+  margin-bottom: 5rem;
+}
+
+.hero-heading {
+  max-width: 80rem;
+  margin: 0 auto;
+  align-items: center;
+  font-size: 7.5rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.hero-description {
+  margin-bottom: 5rem;
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.button-large {
+  display: block;
+  margin: 0 auto;
+  width: 30rem;
+  font-size: 2.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: transparent;
+  background-color: #ba0cc5;
+  color: #fff;
+  padding: 2rem 2rem;
+  margin-bottom: 20rem;
+  cursor: pointer;
+}
+
+.button-large:hover {
+  background-color: #b52dbe;
+}
